@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import Box from './components/Box';
+import BoxContainer from './components/BoxContainer';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Box />
+        <h1>Color-Picker</h1>
+        <BoxContainer />
       </div>
     );
   } 
